@@ -204,7 +204,7 @@ Browser builds will be tested regularly to identify compatibility or performance
 
 - **GitHub Repository:** [Final-Project-Game](https://github.com/jarayiusstewart-hash/Final-Project-Game)
 - **GitHub Project Board:** [HollowLight - Development Roadmap](https://github.com/users/jarayiusstewart-hash/projects/1)
-- **Playable Prototype:** Published on itch.io (add the public game URL here).
+- **Playable Prototype:** Published on itch.io (https://jarayiusstewart-hash.itch.io/hollowlight).
 
 ## Final Vision
 
