@@ -16,9 +16,10 @@ Hollowlight explores themes of trust, perception, reality, and the consequences 
 
 ## Core Mechanic — Guiding Flame
 
-The current proof of concept focuses on the Guiding Flame and Light Reveal mechanic.
+The current proof of concept focuses on the **Guiding Flame and Light Reveal** mechanic.
 
 Players can:
+
 - Explore a dark 3D environment using third-person movement.
 - Use a floating flame as their primary source of illumination.
 - Press **G** to send the flame toward a hidden objective.
@@ -41,20 +42,22 @@ This mechanic demonstrates the player's dependence on the flame to discover what
 
 Future development goals include:
 
-- A sanity and perception system that changes how the player experiences reality.
-- A Trust vs. Question mechanic where players decide whether to follow the flame or challenge its guidance.
-- Environmental puzzles and exploration.
-- Unique abilities connected to the guiding flame.
-- A deeper narrative exploring truth, illusion, and free will.
+- **Sanity and Perception System:** A meter that changes how the player experiences and interprets reality.
+- **Trust vs. Question Mechanic:** Decisions where players choose whether to follow the flame or question its guidance.
+- **Environmental Puzzles:** Exploration challenges that require observation and interaction.
+- **Guiding Flame Abilities:** Unique abilities connected to the flame and its illumination.
+- **Psychological Narrative:** A deeper story exploring truth, illusion, trust, and free will.
+- **Cave Exploration:** A larger navigable environment containing hidden paths, discoveries, and challenges.
 
 ## Development Information
 
 - **Engine:** Unity 6
 - **Language:** C#
-- **Platform:** Web Browser (Unity Web)
+- **Platform:** PC / Web Browser (Unity Web)
 - **Development:** Solo
 - **Current Stage:** Core Mechanic Proof of Concept
 - **Target Audience:** Ages 13+
+- **Final Project Deadline:** December 6, 2026
 
 ## Project Goal
 
@@ -62,6 +65,88 @@ The goal of this prototype is to demonstrate Hollowlight's central gameplay conc
 
 The prototype serves as the foundation for expanding Hollowlight into a larger psychological adventure game.
 
-## AI Usage Disclosure
+The final project aims to deliver a short, playable experience that demonstrates the game's central themes through interactive mechanics.
 
-Generative AI was used as a development assistance tool for programming guidance, troubleshooting, and planning. The developer is responsible for implementing, testing, understanding, and explaining the game's mechanics and code.
+## Development Risks and Mitigation
+
+Because Hollowlight is being developed by a solo developer, careful planning and scope management are important.
+
+The following risks have been identified:
+
+| Risk | Potential Impact | Mitigation Strategy |
+|---|---|---|
+| WebGL performance problems | Lighting and visual effects may reduce browser performance. | Use lightweight lighting, limit expensive effects, and test browser builds regularly. |
+| Sanity system complexity | Environmental changes and perception effects may take longer than expected. | Begin with a basic meter and one visual effect before expanding the system. |
+| Trust vs. Question mechanic | Connecting player decisions to gameplay systems may be challenging. | Implement one meaningful choice with clear feedback before adding additional decisions. |
+| Limited development time | Solo development may make it difficult to complete every planned feature. | Prioritize essential gameplay mechanics and a short, complete experience. |
+| Cave environment development | Building a large 3D cave could require significant time and optimization. | Create a small, reusable cave environment using modular geometry. |
+| Last-minute build failures | Unity Web builds or itch.io uploads may encounter unexpected errors. | Test browser builds throughout development and publish before the final deadline. |
+
+### Risk Management Strategy
+
+The development approach prioritizes functionality before complexity.
+
+Each mechanic will first be implemented in a simple, testable form. Additional visual effects, environmental details, and gameplay complexity will be added only after the core systems function reliably.
+
+If development falls behind schedule, optional features will be reduced to protect the completion of the main gameplay experience.
+
+## Development Milestones
+
+The following milestones establish a realistic development schedule leading to the final project deadline.
+
+| Target Date | Milestone | Deliverables |
+|---|---|---|
+| October 28, 2026 | Proof of Concept Complete | Third-person movement, guiding flame, objective reveal, completion trigger, Web build, and itch.io publication |
+| November 10, 2026 | Core Gameplay Systems | Trust vs. Question mechanic and sanity/perception system |
+| November 17, 2026 | Playable Cave Environment | Navigable cave environment and expanded guiding flame abilities |
+| November 24, 2026 | Gameplay Integration and UI | Short playable sequence, integrated mechanics, and player instructions |
+| December 1, 2026 | Testing and Optimization | Bug fixes, browser performance testing, and gameplay improvements |
+| December 6, 2026 | Final Release and Documentation | Final playable build, updated README, completed project documentation, and submission |
+
+These milestones are planning targets and may be adjusted based on development progress.
+
+## Project Management
+
+Hollowlight uses **GitHub Projects** to organize and track development.
+
+**Project Board:** [HollowLight - Development Roadmap](https://github.com/users/jarayiusstewart-hash/projects/1)
+
+The board contains three development stages:
+
+- **Todo:** Planned features and tasks that have not yet been started.
+- **In Progress:** Features currently being implemented or tested.
+- **Done:** Completed and tested tasks.
+
+Development work is tracked through GitHub Issues connected to the project board.
+
+Issues include descriptions, development goals, and milestone assignments.
+
+### Completed Proof-of-Concept Tasks
+
+- Third-person player movement and camera controls.
+- Guiding flame movement and illumination.
+- Hidden objective reveal mechanic.
+- Objective completion trigger.
+- Unity browser build and testing.
+- Prototype publication on itch.io.
+
+### Planned Development Tasks
+
+- Implement Trust vs. Question choice mechanic.
+- Implement sanity and perception system.
+- Create a playable 3D cave environment.
+- Expand flame guidance and player abilities.
+- Implement a short gameplay sequence.
+- Add player interface and instructions.
+- Complete final testing and browser optimization.
+- Prepare final release and documentation.
+
+## Team Roles and Ownership
+
+**Team Structure:** Solo Developer
+
+As the sole developer, I am responsible for:
+
+- Gameplay programming and mechanics.
+- Player movement and camera systems.
+- Guiding flame behavior and abilities.
