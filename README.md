@@ -150,3 +150,66 @@ As the sole developer, I am responsible for:
 - Gameplay programming and mechanics.
 - Player movement and camera systems.
 - Guiding flame behavior and abilities.
+- Level and environment design.
+- User interface development.
+- Testing, debugging, and optimization.
+- GitHub project management.
+- Web build creation and itch.io publishing.
+
+All GitHub development issues are assigned to the solo developer.
+
+If additional team members join later, responsibilities and issue ownership will be updated accordingly.
+
+## Scope and Development Priorities
+
+To keep the project achievable by December 6, development is divided into essential and optional features.
+
+### Essential Features
+
+- Functional third-person movement.
+- Guiding flame mechanic.
+- Navigable cave environment.
+- At least one Trust vs. Question decision.
+- Basic sanity/perception system.
+- A short gameplay sequence with a clear ending.
+- Playable browser build.
+
+### Optional Features
+
+- Additional flame abilities.
+- Multiple environmental puzzles.
+- Expanded visual perception effects.
+- Multiple branching decisions.
+- Additional cave areas and story content.
+
+Optional features will only be developed after the essential systems are working.
+
+## Testing and Quality Assurance
+
+Hollowlight will be tested throughout development in both the Unity Editor and a desktop web browser.
+
+Testing will focus on:
+
+- Reliable player movement and camera controls.
+- Correct guiding flame behavior.
+- Proper objective reveal and completion.
+- Functional player decisions and perception changes.
+- Acceptable browser performance.
+- Clear gameplay instructions.
+- Successful completion of the playable experience.
+
+Browser builds will be tested regularly to identify compatibility or performance problems before the final release.
+
+## Project Links
+
+- **GitHub Repository:** [Final-Project-Game](https://github.com/jarayiusstewart-hash/Final-Project-Game)
+- **GitHub Project Board:** [HollowLight - Development Roadmap](https://github.com/users/jarayiusstewart-hash/projects/1)
+- **Playable Prototype:** Published on itch.io (add the public game URL here).
+
+## Final Vision
+
+Hollowlight is intended to challenge the player's relationship with guidance, truth, and perception.
+
+Rather than simply following a source of light through darkness, players will gradually confront the possibility that the very thing helping them may also be controlling what they are allowed to see.
+
+**The central question remains: Can the light guiding you always be trusted?**
