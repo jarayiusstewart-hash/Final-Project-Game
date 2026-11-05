@@ -82,37 +82,53 @@ The test must also work in a WebGL browser build.
 
 
 
-### \## Test Results
+## Test Results
 
+**Unity Editor Testing**
+- Trial 1: Passed
+- Trial 2: Passed
+- Trial 3: Passed
 
+**Unity Editor Result:** Passed (3/3 trials).
 
-##### \*\*Unity Editor Testing\*\*
+During testing, I adjusted the guiding flame's
+light range from 20 to 6. This created a smaller
+area of illumination while keeping the cave dark.
 
+**WebGL Browser Testing**
+- Character movement: Passed
+- Guiding flame activation (G key): Passed
+- Flame illumination: Passed
 
+**WebGL Result:** Passed.
 
-\- Trial 1: Passed
+**Overall PoC Status:** Passed.
 
-\- Trial 2: Passed
+The guiding flame successfully illuminated nearby
+surroundings and helped the player navigate the
+dark cave in three consecutive Unity Editor trials.
+The mechanic also functioned in the browser build.
 
-\- Trial 3: Passed
+## Scope Update
 
+**Must Have**
+- Guiding flame movement and illumination
+- Third-person player movement
+- Functional WebGL build
 
+**Should Have**
+- Improved cave environment
+- Player instructions and UI
+- Short gameplay sequence
 
-#### \*\*Unity Editor Result:\*\* Passed (3/3 successful trials).
+**Could Have**
+- Sanity and perception mechanics
+- Trust versus question decision system
+- Additional player abilities
 
+## Next Steps
 
-
-During testing, I discovered that the flame's lighting needed adjustment. I reduced the FlameLight range from 20 to 6 to create a smaller area of illumination around the flame.
-
-
-
-After adjusting the lighting, I successfully followed the flame to its destination three consecutive times.
-
-
-
-\*\*WebGL Result:\*\* Pending verification of the updated lighting and navigation system.
-
-
-
-\*\*Overall PoC Status:\*\* Partially passed — successful in the Unity Editor, with updated WebGL verification still required.
-
+Continue developing the cave environment,
+improve player guidance and UI, and begin
+implementing the sanity and decision systems
+for the Alpha milestone.
