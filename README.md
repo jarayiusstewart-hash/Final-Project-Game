@@ -213,3 +213,13 @@ Hollowlight is intended to challenge the player's relationship with guidance, tr
 Rather than simply following a source of light through darkness, players will gradually confront the possibility that the very thing helping them may also be controlling what they are allowed to see.
 
 **The central question remains: Can the light guiding you always be trusted?**
+
+## Proof of Concept Demonstration
+
+Watch the Hollowlight guiding flame navigation
+Proof of Concept:
+
+[Hollowlight - Proof of Concept Demo](https://youtu.be/pLFkpPXTDoM)
+
+Unity Editor testing: Passed (3/3 trials).
+WebGL verification: Pending.
