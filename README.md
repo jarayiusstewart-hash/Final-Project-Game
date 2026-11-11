@@ -223,3 +223,52 @@ Proof of Concept:
 
 Unity Editor testing: Passed (3/3 trials).
 WebGL verification: Pending.
+
+## Vertical Slice — Alpha Build (November 11, 2026)
+
+### Play the Game
+
+**Live WebGL build:** https://jarayiusstewart-hash.itch.io/hollowlight
+
+**Playtesting plan:** [TestPlan.md](TestPlan.md)
+
+### Release Notes
+
+**Included in this build:**
+- Third-person player movement and camera controls.
+- A dark cave with branching corridors.
+- A guiding flame that follows a series of waypoints through the cave.
+- On-screen instructions for movement and flame controls.
+- A hidden objective that players can discover.
+- An objective completion message and the ability to restart using R.
+- A playable WebGL build hosted on itch.io.
+
+**Not yet implemented:**
+- Sanity and perception system.
+- Trust-versus-question decision mechanic.
+- Additional player abilities.
+- Expanded cave environments and gameplay content.
+
+**Known bugs and limitations:**
+- After reaching the objective, recalling and sending the flame out again can cause it to retrace its previous route.
+- The current build contains one short gameplay sequence and placeholder visuals.
+
+### How to Build and Deploy Hollowlight
+
+1. Clone or download this GitHub repository.
+2. Open the project in Unity 6 with the required project packages installed.
+3. Open `Assets/Scenes/HollowLight_Prototype.unity`.
+4. Save the scene and select **File → Build Profiles**.
+5. Select **Web** as the active build platform.
+6. Confirm `HollowLight_Prototype` is enabled in the Scene List.
+7. Click **Build** and choose a new output folder outside the `Assets` folder.
+8. Wait until Unity reports that the build succeeded.
+9. Open the output folder and confirm it contains `Build`, `TemplateData`, and `index.html`.
+10. Select those three items and compress them into a ZIP file, with `index.html` at the root of the ZIP.
+11. Open the Hollowlight project editor on itch.io and upload the ZIP.
+12. Check **This file will be played in the browser**, and disable browser play for older builds.
+13. Save the itch.io page and test the published game in a browser.
+
+### Playtesting
+
+The Vertical Slice will be tested with other students during Testing Session 1. Feedback will be recorded using the questions and measurements in [TestPlan.md](TestPlan.md) and used to prioritize improvements for the Beta milestone.
