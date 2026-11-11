@@ -6,6 +6,7 @@ public class FlameGuide : MonoBehaviour
 {
     public Transform player;
     public Transform destination;
+    public Transform[] waypoints;
 
     public float guideSpeed = 3f;
     public float stopDistance = 1.5f;
@@ -13,6 +14,7 @@ public class FlameGuide : MonoBehaviour
 
     private bool isGuiding = false;
     private bool hasReachedDestination = false;
+    private int currentWaypointIndex = 0;
 
     private Transform originalParent;
     private Vector3 originalLocalPosition;
@@ -45,9 +47,9 @@ public class FlameGuide : MonoBehaviour
             return;
 
         Vector3 targetPosition = new Vector3(
-            destination.position.x,
+            waypoints[currentWaypointIndex].position.x,
             hoverHeight,
-            destination.position.z
+            waypoints[currentWaypointIndex].position.z
         );
 
         transform.position = Vector3.MoveTowards(
@@ -60,6 +62,11 @@ public class FlameGuide : MonoBehaviour
         if (Vector3.Distance(transform.position, targetPosition)
             <= stopDistance)
         {
+            if (currentWaypointIndex < waypoints.Length - 1)
+            {
+                currentWaypointIndex++;
+                return;
+            }
             hasReachedDestination = true;
 
             ObjectiveReveal reveal =
@@ -90,6 +97,7 @@ public class FlameGuide : MonoBehaviour
 
         isGuiding = true;
         hasReachedDestination = false;
+        currentWaypointIndex = 0;
 
         // Disable floating animation during guidance.
         if (flameFloat != null)

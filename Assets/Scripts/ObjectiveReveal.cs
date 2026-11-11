@@ -7,6 +7,7 @@ public class ObjectiveReveal : MonoBehaviour
     public Light objectiveLight;
 
     private bool revealed = false;
+    public bool IsRevealed => revealed;
 
     void Start()
     {

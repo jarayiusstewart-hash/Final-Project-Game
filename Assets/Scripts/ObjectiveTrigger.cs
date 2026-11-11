@@ -7,15 +7,22 @@ public class ObjectiveTrigger : MonoBehaviour
 {
     public GameObject objectiveMessage;
     public GameObject restartHint;
+    private ObjectiveReveal objectiveReveal;
 
     private bool completed = false;
     public float messageDuration = 5f;
-
+    private void Start()
+    {
+        objectiveReveal = GetComponent<ObjectiveReveal>();
+    }
     private void OnTriggerEnter(Collider other)
     {
         Debug.Log("Trigger entered by: " + other.name);
 
-        if (other.CompareTag("Player") && !completed)
+        if (other.CompareTag("Player") &&
+        !completed &&
+        objectiveReveal != null &&
+        objectiveReveal.IsRevealed)
         {
             completed = true;
 
