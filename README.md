@@ -164,26 +164,22 @@ If additional team members join later, responsibilities and issue ownership will
 
 To keep the project achievable by December 6, development is divided into essential and optional features.
 
-### Essential Features
-
-- Functional third-person movement.
-- Guiding flame mechanic.
+### Must — Beta Features
+- Functional third-person movement and camera.
+- Guiding flame navigation and illumination.
 - Navigable cave environment.
-- At least one Trust vs. Question decision.
-- Basic sanity/perception system.
-- A short gameplay sequence with a clear ending.
-- Playable browser build.
+- Hidden objective reveal and completion.
+- Short playable sequence with a clear ending.
+- Playable WebGL browser build.
 
-### Optional Features
+### Deferred Features — Outside Locked Beta Scope
+- Sanity and Perception System.
+- Trust vs. Question decision mechanic.
+- Additional guiding flame abilities.
+- Expanded environmental puzzles and cave areas.
+- Additional story content and branching decisions.
 
-- Additional flame abilities.
-- Multiple environmental puzzles.
-- Expanded visual perception effects.
-- Multiple branching decisions.
-- Additional cave areas and story content.
-
-Optional features will only be developed after the essential systems are working.
-
+These features remain part of the long-term vision for Hollowlight but are not required for the locked Beta build. Development through the Release Candidate will focus on fixes, balancing, optimization, and polish.
 ## Testing and Quality Assurance
 
 Hollowlight will be tested throughout development in both the Unity Editor and a desktop web browser.
