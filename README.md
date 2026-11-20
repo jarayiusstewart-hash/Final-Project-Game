@@ -272,3 +272,47 @@ WebGL verification: Pending.
 ### Playtesting
 
 The Vertical Slice will be tested with other students during Testing Session 1. Feedback will be recorded using the questions and measurements in [TestPlan.md](TestPlan.md) and used to prioritize improvements for the Beta milestone.
+
+## Beta Build — November 2026
+
+### Release Notes
+
+**Changes Since Alpha**
+- Added rock textures to cave walls, floors, and ceilings to improve visual clarity and movement perception.
+- Improved guiding flame navigation using Unity's NavMesh system.
+- Adjusted cave lighting to create a darker, more immersive environment.
+- Addressed the three main issues identified during Testing Session 1.
+- Tested the updated gameplay and published a new WebGL build on itch.io.
+
+**Current Beta Features**
+- Third-person movement and camera controls.
+- Dark, navigable cave environment.
+- Guiding flame navigation and objective discovery.
+- Hidden objective reveal and completion system.
+- On-screen controls and level restart.
+- Playable browser build.
+
+**Deferred Features and Scope Changes**
+- Sanity and Perception System — not included in Beta.
+- Trust vs. Question Choice Mechanic — not included in Beta.
+- Additional Guiding Flame Abilities — postponed.
+- Expanded cave environments and additional story content — outside the current Beta scope.
+
+These features remain part of the broader Hollowlight concept but are not committed to the Release Candidate or final release.
+
+**Known Bugs and Limitations**
+- The game currently contains one short playable sequence.
+- The flame may retrace its previous route when sent toward the objective again.
+- Some planned psychological gameplay mechanics are not implemented.
+
+**Beta Content Lock**
+
+The current Beta build is content-locked. Further work before the final release will focus on bug fixes, gameplay balancing, performance improvements, and polish rather than introducing major new mechanics.
+
+**Playtesting Documentation**
+
+See [FEEDBACK.md](FEEDBACK.md) for the Testing Session 1 findings and completed improvements.
+
+**Play the Beta Build**
+
+https://jarayiusstewart-hash.itch.io/hollowlight
